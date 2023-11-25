@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(5, 5, 5);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+
+
+header {
+    background-color: black;
+    padding: 40px 0 0 0 ;
+    box-shadow: 0 0 2px rgb(9, 9, 9);
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+header li{
+    display:inline;
+    padding-left: 45px;
+    font-weight: bold;
+}
+header li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+    
+
+}
+header a :hover{
+    color: blue;
+}
+header ul #contact a{
+    color:black;
+    background-color:white;
+    border-radius: 30px;
+    float: right;
+    position:relative;
+    top: -15px;
+    right: 20px;
+    transition: 0.3s ease;
+}
+header ul #contact a :hover
+{
+    background-color:goldenrod
+}
+header ul img {
+    width: 140px;
+    height: 70px;
+    float: left;
+    margin-top: -20;
+}
+
+.active{
+    color: rgba(115, 177, 179, 0.938);
+}
+.showcase img {
+    width: 100vw;
+    height:99.6vh;
+}
+.showcase #showcase_text {
+    position: absolute;
+    top: 210px;
+    right: 10px;
+    color: white;
+    text-align:right;
+    padding: 100px;
+    
+}
+.showcase #showcase_text h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: bold;
+
+}
+.showcase #showcase_text h3 {
+    color: rgb(180, 175, 175);
+    font-size: 20px;
+    font-weight: 40;
+    
+}
+.showcase #showcase_text a{
+    position: relative;
+    text-decoration: none;
+    padding:10px ;
+    color: white;
+    background: transparent ;
+    border: 2px solid;
+    top: 40px;
+    transition: 3sec ease;
+}
+.showcase #showcase_text #read_more_button a
+{
+    background: white;
+    color: grey;
+}
+.showcase #showcase_text #product_button {
+    background: white;
+}
+.box{
+    background-color: blue;
+    height: 500px;
+    padding: 100px;
+    width: 300px;
+}
+
+

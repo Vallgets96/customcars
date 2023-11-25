@@ -1,0 +1,29 @@
+td{
+    background-color: rgb(251, 247, 247);
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    border-radius: 20px;
+}
+td img{
+    border-radius: 20px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+}
+.vic h1{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 190px;
+}
+.vic h4{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 50px;
+}
